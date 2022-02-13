@@ -12,3 +12,4 @@ data "aws_iam_policy_document" "allow_describe_regions" {
     resources=["*"]
   }
 }
+
