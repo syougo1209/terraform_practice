@@ -165,6 +165,7 @@ resource "aws_lb_listener_rule" "example" {
     }
   }
 }
+
 output "domain_name" {
   value =data.aws_route53_zone.example.name
 }
