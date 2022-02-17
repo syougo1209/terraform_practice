@@ -1,3 +1,4 @@
 #!/bin/bash
-yum install -y httpd
-systemctl start httpd.service
+amazon-linux-extras install -y docker
+systemctl start docker
+systemctl enable docker
